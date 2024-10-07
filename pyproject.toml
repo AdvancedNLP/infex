@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "infex"
+version = "0.1.0"
+description = ""
+authors = ["Joel Akeret <joel.akeret@ti&m.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.7"
+langchain = "^0.2.7"
+langchain-openai = "^0.1.14"
+pdf2image = "^1.17.0"
+pillow = "^10.4.0"
+setuptools = "^72.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
